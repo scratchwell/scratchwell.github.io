@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TouchPilot Support</title>
+  <meta name="description" content="Support page for TouchPilot, an iPhone trackpad and keyboard input app for iPad.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #5f6673;
+      --line: #e5e7eb;
+      --accent: #0a84ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0d10;
+        --card: #16191f;
+        --text: #f4f5f7;
+        --muted: #a4abb7;
+        --line: #2a2f38;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      margin-top: 18px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 8vw, 56px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 0 0 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 620px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TouchPilot Support</h1>
+    <p class="lead">TouchPilot turns your iPhone into a lightweight trackpad and keyboard input surface for your iPad.</p>
+
+    <section>
+      <h2>What TouchPilot Supports</h2>
+      <ul>
+        <li>iPhone-to-iPad pointer input over Bluetooth</li>
+        <li>Click, right click, drag hold, and edge scrolling</li>
+        <li>System keyboard, function keys, and custom shortcuts</li>
+        <li>Light and dark appearance</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Important Notes</h2>
+      <ul>
+        <li>TouchPilot v1 is designed for iPad as the receiving device.</li>
+        <li>Mac and general Bluetooth devices are not currently supported.</li>
+        <li>Input stops when the app moves to the background.</li>
+        <li>Compatibility can vary by device and OS version.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Basic Setup</h2>
+      <ol>
+        <li>Open TouchPilot on your iPhone.</li>
+        <li>Allow Bluetooth access when prompted.</li>
+        <li>Open TouchPilot Settings and enable iPad connection waiting.</li>
+        <li>On your iPad, open Settings &gt; Bluetooth.</li>
+        <li>Select the TouchPilot Bluetooth name shown in the iPhone app.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Troubleshooting</h2>
+      <ul>
+        <li>If the iPad does not find TouchPilot, turn Bluetooth off and on again on both devices.</li>
+        <li>If a previous pairing exists, remove the old TouchPilot entry from iPad Bluetooth settings and pair again.</li>
+        <li>Keep TouchPilot open in the foreground while using it.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:scratchwell.app@gmail.com">scratchwell.app@gmail.com</a></p>
+      <p>Privacy Policy: <a href="/touchpilot/privacy/">scratchwell.github.io/touchpilot/privacy/</a></p>
+    </section>
+
+    <p class="meta">TouchPilot is made by ScratchWell. Copyright &copy; 2026 ScratchWell.</p>
+  </main>
+</body>
+</html>
