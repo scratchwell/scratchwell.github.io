@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TouchPilot 지원</title>
+  <meta name="description" content="iPhone을 iPad용 트랙패드와 키보드로 사용하는 TouchPilot 지원 페이지입니다.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #5f6673;
+      --line: #e5e7eb;
+      --accent: #0a84ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0d10;
+        --card: #16191f;
+        --text: #f4f5f7;
+        --muted: #a4abb7;
+        --line: #2a2f38;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      margin-top: 18px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 8vw, 56px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 0 0 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 0 0 12px;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 620px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 24px;
+    }
+
+    .language {
+      margin: 0 0 24px;
+      text-align: right;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="language"><a href="/touchpilot/" hreflang="en">English</a></p>
+    <h1>TouchPilot 지원</h1>
+    <p class="lead">TouchPilot은 iPhone을 iPad용 가벼운 트랙패드와 키보드 입력 화면으로 바꿔주는 앱입니다.</p>
+
+    <section>
+      <h2>지원 기능</h2>
+      <ul>
+        <li>Bluetooth를 통한 iPhone-to-iPad 포인터 입력</li>
+        <li>클릭, 우클릭, 드래그 유지, 가장자리 스크롤</li>
+        <li>시스템 키보드, 기능 키, 사용자 단축키</li>
+        <li>라이트 모드와 다크 모드</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>중요 안내</h2>
+      <ul>
+        <li>TouchPilot v1은 iPad를 수신 기기로 사용하는 것을 기준으로 설계되었습니다.</li>
+        <li>Mac과 일반 Bluetooth 기기는 현재 지원하지 않습니다.</li>
+        <li>앱이 백그라운드로 이동하면 입력 전송을 중지합니다.</li>
+        <li>실제 호환성은 기기와 OS 버전에 따라 달라질 수 있습니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>기본 연결 방법</h2>
+      <ol>
+        <li>iPhone에서 TouchPilot을 엽니다.</li>
+        <li>Bluetooth 접근 권한을 허용합니다.</li>
+        <li>TouchPilot 설정에서 iPad 연결 대기를 켭니다.</li>
+        <li>iPad에서 설정 &gt; Bluetooth를 엽니다.</li>
+        <li>iPhone 앱에 표시된 TouchPilot Bluetooth 이름을 선택합니다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>문제 해결</h2>
+      <ul>
+        <li>iPad에서 TouchPilot이 보이지 않으면 두 기기의 Bluetooth를 껐다가 다시 켭니다.</li>
+        <li>이전 페어링이 남아 있으면 iPad Bluetooth 설정에서 기존 TouchPilot 항목을 지운 뒤 다시 연결합니다.</li>
+        <li>사용 중에는 TouchPilot을 foreground에서 열어 둡니다.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>문의</h2>
+      <p>이메일: <a href="mailto:scratchwell.app@gmail.com">scratchwell.app@gmail.com</a></p>
+      <p>개인정보 처리방침: <a href="/touchpilot/ko/privacy/">scratchwell.github.io/touchpilot/ko/privacy/</a></p>
+      <p>영어 지원 페이지: <a href="/touchpilot/">scratchwell.github.io/touchpilot/</a></p>
+    </section>
+
+    <p class="meta">TouchPilot은 ScratchWell이 만듭니다. Copyright &copy; 2026 ScratchWell.</p>
+  </main>
+</body>
+</html>
